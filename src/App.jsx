@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div className="relative min-h-screen flex flex-col">
+     
         <Router>
           <Navbar />
           <Routes>
@@ -15,7 +15,7 @@ function App() {
             <Route path="/login" element={<Login />} />
           </Routes>
         </Router>
-      </div>
+     
     </ThemeProvider>
   );
 }
